@@ -1,1 +1,51 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T10:43:20.071Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="CLAlPiJXe_06NlBC-qJ-" version="16.5.6" type="github"><diagram id="6sGAETR8w0xiFTCWtglB" name="第 1 页">3VjLcpswFP0aLdMBxENago3bzCTTzjht3O4UowCNjFxZju18fQUIYwWcOo1Tp9kw0pF0uZz7FAAOZuuPgsyzS55QBhwrWQM4BI6DXayeJbCpAc91ayAVeVJDVguM8wdag7YGl3lCFwYkOWcyn5vglBcFnUoDI0LwlbntlrPEAOYkpR1gPCWsi17nicw06lhWu/CJ5mnWvNpvVmak2a2BRUYSvtqBYAzgQHAu69FsPaCs5M7kZbRndauZoIU85MDD+DOB5Ovyx6aQYxxuaDq5OnNqKfeELfUXa2XlpqFA8GWR0FKIDWC0ynJJx3MyLVdXyuQKy+SM6WUtjgpJ13v1tLdfr7yG8hmVYqO26APQ9+sj2mMcV+u0ag0ALe1W2Q73ONB21zZPt6JbVtRAE/MMktw/k0QT5TZ6yoXMeMoLwuIWjVoaLTVr91xwPtfk/aRSbnQIkKXkfdSWL3qaWKUXX4qp3nXxy72+Sr7N15cXk/MzZjl36eysiSQiUiqf+PA9hhKUEZnfm3ocnXX7JCzTdS4nO+PvpagPnp4N11pyNdnoybEt8wLG9dEvPFdv3oaUh7EZUh42RdSeoE89sttWjYNM+ZS/7QZQ7AM8AGgIYg+gEIR2OVBqhgjECKAYREGJRDFQYR1jgNV4VA1gCarjak/oLQU7RsLqMVUnh+1NWLZjsmsHsJOw7KYK7CYs33ql0PH+44S1PxEdkLDgSRNWh/XzYeXMAQjD0plDB+AYOD5TnxDdCDVK5Zanv3Xg25yxAWdcVGdh4lGUuApfSMHv6M4Kcm7K0nqUGv3Y5Z3AO7HL2/B9V4v97n5IHbf6rflv4gL2ZKM6BhZzUjRRoHSsa0JUxQpCIPLL6ImGIBz4TjUcARy1i1qI0mlXzjHKwQtjAxmxAYPgxLGB31s5QF2/f5Vu6kWso56mB4FwVHU2PohsgBQSAOwCPKoaGgSwVSEjEA67vc7pPRtahmcH9qmTvtXD8dvlz7Vss2r6PY2i3XOz9dBrEdjXme9ttk9OoAfxWyOw599A7FaVqrraKD/ESDeBEawqnOK2KnXq7hPG1R0nVDwnNx12FU/SpNDs6Qpe0EcNoIYIy9NCTaeKV6rwqGQ9nxIW6oVZniRVVu+zmZnpj2A22PzBaSqij3vM5nXNBr1nm01N219q9f21/S8J498=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-16T10:44:46.916Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="QopA4u7RrJ-HBlURukbf" version="16.5.6" type="github">
+  <diagram id="6sGAETR8w0xiFTCWtglB" name="第 1 页">
+    <mxGraphModel dx="949" dy="591" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zSOa3aUuZyntS9AyegXT-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="366" y="242" width="309" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOa3aUuZyntS9AyegXT-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Lq4WTdVpxMLXI-l02kgm-1" target="zSOa3aUuZyntS9AyegXT-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOa3aUuZyntS9AyegXT-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Lq4WTdVpxMLXI-l02kgm-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lq4WTdVpxMLXI-l02kgm-1" value="服务器获得长链接url" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="129" y="173" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOa3aUuZyntS9AyegXT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zSOa3aUuZyntS9AyegXT-1" target="zSOa3aUuZyntS9AyegXT-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOa3aUuZyntS9AyegXT-1" value="ID自增&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="129" y="275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOa3aUuZyntS9AyegXT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="zSOa3aUuZyntS9AyegXT-3" target="zSOa3aUuZyntS9AyegXT-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOa3aUuZyntS9AyegXT-3" value="&lt;span&gt;10机制转62进制&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="128" y="377" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOa3aUuZyntS9AyegXT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="zSOa3aUuZyntS9AyegXT-8" target="Lq4WTdVpxMLXI-l02kgm-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOa3aUuZyntS9AyegXT-8" value="请求生成短链接" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="129" y="71" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOa3aUuZyntS9AyegXT-10" value="短链接" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="401" y="263" width="119" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOa3aUuZyntS9AyegXT-11" value="长链接" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="539" y="263" width="119" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="zSOa3aUuZyntS9AyegXT-14" value="保存至数据库db" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="342" y="369" width="115" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
