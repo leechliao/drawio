@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T10:44:46.916Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="QopA4u7RrJ-HBlURukbf" version="16.5.6" type="github">
-  <diagram id="6sGAETR8w0xiFTCWtglB" name="第 1 页">
-    <mxGraphModel dx="949" dy="591" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-02-16T10:51:42.501Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="y36deGP26gdy2SpxFljA" version="16.5.6" type="github" pages="2">
+  <diagram id="6sGAETR8w0xiFTCWtglB" name="生成">
+    <mxGraphModel dx="1107" dy="690" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,6 +44,56 @@
         </mxCell>
         <mxCell id="zSOa3aUuZyntS9AyegXT-14" value="保存至数据库db" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="342" y="369" width="115" height="35" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yL8z4aRI43s9ijKa5Odq" name="请求">
+    <mxGraphModel dx="949" dy="591" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="GlwLC4NgY-SMz9xsL2S6-0" />
+        <mxCell id="GlwLC4NgY-SMz9xsL2S6-1" parent="GlwLC4NgY-SMz9xsL2S6-0" />
+        <mxCell id="weGbmb3leySab_ZUqel8-0" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GlwLC4NgY-SMz9xsL2S6-1">
+          <mxGeometry x="527" y="258" width="309" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="weGbmb3leySab_ZUqel8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GlwLC4NgY-SMz9xsL2S6-1" source="weGbmb3leySab_ZUqel8-3" target="weGbmb3leySab_ZUqel8-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="weGbmb3leySab_ZUqel8-3" value="服务器获得短链url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GlwLC4NgY-SMz9xsL2S6-1">
+          <mxGeometry x="290" y="189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="weGbmb3leySab_ZUqel8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="GlwLC4NgY-SMz9xsL2S6-1" source="weGbmb3leySab_ZUqel8-7" target="weGbmb3leySab_ZUqel8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="weGbmb3leySab_ZUqel8-7" value="&lt;span&gt;获取原链接&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GlwLC4NgY-SMz9xsL2S6-1">
+          <mxGeometry x="289" y="393" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="weGbmb3leySab_ZUqel8-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GlwLC4NgY-SMz9xsL2S6-1" source="weGbmb3leySab_ZUqel8-9" target="weGbmb3leySab_ZUqel8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="weGbmb3leySab_ZUqel8-9" value="请求短链接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GlwLC4NgY-SMz9xsL2S6-1">
+          <mxGeometry x="290" y="87" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="weGbmb3leySab_ZUqel8-10" value="短链接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GlwLC4NgY-SMz9xsL2S6-1">
+          <mxGeometry x="562" y="279" width="119" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="weGbmb3leySab_ZUqel8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GlwLC4NgY-SMz9xsL2S6-1" source="weGbmb3leySab_ZUqel8-11" target="weGbmb3leySab_ZUqel8-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="759" y="423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="weGbmb3leySab_ZUqel8-11" value="长链接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GlwLC4NgY-SMz9xsL2S6-1">
+          <mxGeometry x="700" y="279" width="119" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="weGbmb3leySab_ZUqel8-12" value="查询缓存数据库db" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GlwLC4NgY-SMz9xsL2S6-1">
+          <mxGeometry x="461" y="177" width="115" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="weGbmb3leySab_ZUqel8-14" value="&lt;span&gt;跳转&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="GlwLC4NgY-SMz9xsL2S6-1">
+          <mxGeometry x="289" y="478" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
